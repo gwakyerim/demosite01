@@ -104,8 +104,8 @@
     pointer-events: all;
   }
   .link-title:after {
-    content: '\e942';
-    font-family:xeicon;
+    content: '\F282';
+    font-family: bootstrap-icons;
     position: absolute;
     right: 10px;
     transition: 0.3s;

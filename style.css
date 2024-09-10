@@ -1,7 +1,6 @@
 /* Google Web Fonts CDN */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
-/* XEION CDN */
-@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js");
 
 * {
   font-family: 'Noto Sans KR', sans-serif;
@@ -89,9 +88,9 @@ section {
   position: relative;
 }
 .read-more:after {
-  content: '\e907';
+  content: '\F135';
   position: absolute;
-  font-family: xeicon;
+  font-family: bootstrap-icons;
   margin-left: 5px;
   transition: 0.3s;
 }
@@ -160,9 +159,9 @@ input[type=checkbox] {
 
 /* Custom Button */
 .next-section a i {
-  animation: next 1.2s linear infinite;
+  animation: down 1.2s linear infinite;
 }
-@keyframes next {
+@keyframes down {
   0% {
       transform: translateY(-3px);
     }
